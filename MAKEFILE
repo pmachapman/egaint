@@ -19,6 +19,11 @@
 # Cambridge, Massachusetts 02139
 #
 
+# Turbo Pascal Directory
+!if !$d(TURBO)
+TURBO=C:\TP
+!endif
+
 # Makefile for egaint 0.94.13 (for use with Turbo Make 2.0)
 egaint.exe: eg9413.pas driver.tpu fonts.tpu
 	tpc /m eg9413.pas
@@ -28,15 +33,15 @@ egaint.exe: eg9413.pas driver.tpu fonts.tpu
 
 fonts.tpu: fonts.pas sans.obj litt.obj
 	tpc fonts.pas
-sans.obj: sans.chr
-	binobj sans.chr sans.obj SansSerifFontProc
-litt.obj: litt.chr
-	binobj litt.chr litt.obj SmallFontProc
+sans.obj: $(TURBO)\sans.chr
+	binobj $(TURBO)\sans.chr sans.obj SansSerifFontProc
+litt.obj: $(TURBO)\litt.chr
+	binobj $(TURBO)\litt.chr litt.obj SmallFontProc
 
 driver.tpu: driver.pas egavga.obj herc.obj
 	tpc driver.pas
-egavga.obj: egavga.bgi
-	binobj egavga.bgi egavga.obj EgaVgaDriver
-herc.obj: herc.bgi
-	binobj herc.bgi herc.obj HercDriver
+egavga.obj: $(TURBO)\egavga.bgi
+	binobj $(TURBO)\egavga.bgi egavga.obj EgaVgaDriver
+herc.obj: $(TURBO)\herc.bgi
+	binobj $(TURBO)\herc.bgi herc.obj HercDriver
 
