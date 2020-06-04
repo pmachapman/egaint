@@ -1,0 +1,12 @@
+readme          Distribution package information
+copying         GNU General Public License
+getting         How to get egaint
+odyssey.bbs     Where to get egaint
+pcgfx.bbs       Where to get egaint
+version.log     Summary of changes
+makefile        Makefile
+eg9413.pas      Main file
+pal.pas         Quick and dirty EGA/VGA palette editor
+driver.pas      Driver unit file
+fonts.pas       Fonts unit file
+manifest        This file

@@ -1,0 +1,38 @@
+EGAINT 0.94.13 SOURCE CODE DISTRIBUTION PACKAGE
+
+This program comes with ABSOLUTELY NO WARRANTY; see the accompanying GNU
+General Public License for full details.  You should have received a
+copy along with this program (see the file COPYING).  If not, write to:
+Free Software Foundation, Inc., 675 Massachusetts Avenue, Cambridge,
+Massachusetts 02139.
+
+See the included file MANIFEST for the contents of this distribution
+package.
+
+--
+eric ng 1906 milvia street berkeley california 94704
+...!ucbvax!irss.njit.edu!erc ...!ucbvax!ocf!erc
+erc@irss.njit.edu            erc@ocf.berkeley.edu
+
+
+WHAT'S NEW WITH THIS RELEASE
+
+The biggest improvement in version 0.94.13 is the addition (after
+numerous user requests) of support (albeit largely untested) for the
+Hercules and EGA monochrome graphics adapters.  SINCE I NEITHER OWN NOR
+HAVE ACCESS TO EITHER OF THESE GRAPHICS ADAPTERS, I CAN PRACTICALLY
+GUARANTEE BUGS FOR HERCULES AND EGA MONOCHROME USERS.  Please try to
+report these bugs as time permits.  (If you have a color EGA or VGA,
+never mind, this doesn't apply to you.)
+
+In addition, pit depth and show guide options were added, requiring the
+modification of both the options screen (including the addition of a
+bullet cursor) and the scoring.
+
+Version 0.94.12 contains an inelegant implementation of user-definable
+EGA/VGA palette settings.  The Turbo Pascal source code for a quick and
+dirty EGA/VGA palette editor is also included in this distribution
+package.  When using it, press the lowercase letter ("a" thru "o") to
+decrement the current palette value, and press the uppercase letter ("A"
+thru "O") to increment the current palette value.  Once finished, press
+Escape.

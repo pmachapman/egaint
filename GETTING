@@ -1,0 +1,118 @@
+GETTING EGAINT
+
+There are several ways to obtain the complete source code and/or the
+latest version of this program; I'll outline a few of the more obvious
+procurements methods below.
+
+First and foremost, you can download the complete egaint (and more) when
+calling either of the following bulletin board systems (both serve as
+the primary distributors of this program):
+
+Tom McDermet's Odyssey            Lawrence Liu's PC GFX Exchange
+Morris Plains, New Jersey         San Francisco, California
+24 hours, 300/1200/2400 baud      24 hours, 2400/9600/19200 baud
++1 201 984 6574                   +1 415 337 5416 (HST dual standard)
+                                  +1 415 337 5599 (Hayes V-series)
+
+Both systems are exceptional, quite comfortable, and run by two of the
+best sysops around:  I heartily encourage you to call both (tell them I
+sent you).
+
+Look for files in the form of EGmmddx.ZIP (where mmdd is the month and
+day of the release and x is either "E", "S", and "P", representing the
+executable, source code, and patch distributions, respectively) in the
+either the games or upload directories.  Since more than one version
+might exist from time to time, using the "zippy scan" command for
+"egaint" in all directories should locate (eventually) the most current
+version.
+
+In addition, as time and funds permit, I do try to call some of the more
+interesting bulletin board systems around the contiguous forty-eight
+states from time to time, so a copy (albeit usually not the latest
+version) probably exists on a system near you (if not, upload it there
+yourself!).
+
+Unfortunately, the grabbing of egaint via Fidonet file requests is not
+available at this time.
+
+For those with Internet and/or UUCP access, I can electronically mail
+out uuencode'd binaries or shar'd source code--send mail to one of the
+addresses listed below for more details.  In addition, an anonymous ftp
+site for egaint exists at ocf.berkeley.edu (128.32.184.254); look in the
+"pub/erc" subdirectory.
+
+Also, I periodically submit versions to the comp.binaries.ibm.pc
+newsgroup (though whether or not they actually get posted is another
+matter entirely), something which Usenet aficionados can stay tuned for.
+Since this newsgroup is archived at several sites, notably
+grape.ecs.clarkson.edu (non-authoritative address:  128.153.13.196),
+previous releases should be available from one of them.
+
+Finally, for those shut off from the rest of the world or too busy to
+bother, mailing a self-addressed, stamped mailer with either a 5.25-
+inch, 360k or 3.5-inch, 720k or 1.44M diskette to the below postal
+address will also work.  Please make sure that you provide adequate
+postage!  Due to monetary limitations (read:  I'm a poor, busy college
+student), if your package is either under-postaged or incompletely
+addressed, it will probably be tossed.
+
+Since versions are issued at a very irregular frequency (ranging from
+twice a day to twice a year) as opposed to, for example, bi-monthly,
+announcements concerning the availability of major releases will be
+posted to the Usenet newsgroups comp.binaries.ibm.pc.d and
+rec.games.misc and the Games conference on Smartnet.
+
+
+CORRESPONDING WITH ME
+
+I'm terribly interested in hearing about any bug reports, complaints,
+suggestions, improvements, or comments which you might have concerning
+this program, even if it's just a postcard of New York City with "Nice
+program!" scrawled on it.
+
+Again, there are several ways to reach me.  First, you can leave me a
+comment on either of the aforementioned bulletin board systems when you
+download the latest version.
+
+I also regularly monitor the Games conference on the Smartnet network,
+so leaving me a message in that conference on any network carrier should
+also work.
+
+Internet and/or UUCP electronic mail also works (and is probably the
+preferred method of contact); apropos addresses are given below.
+
+For Compuserve users, there is a way to send electronic mail through a
+gateway to Internet:  prefixing my Internet address with ">internet:"
+should do the trick (i.e., ">internet:erc@irss.njit.edu").  Issuing the
+Compuserve command "help internet" will recant more detailed information
+concerning this gateway.
+
+For Fidonet users, there is a way to send Netmail to an Internet and/or
+UUCP address:  consult your local system operator for more details.
+
+Finally, letters and cards (preferably of picturesque local tourist
+attractions) to my postal address also work (but tend to take about week
+to get here).
+
+
+THE EGAINT MAILING LIST
+
+A mailing list devoted to egaint and other related topics (including,
+but not limited to Tetris and KLAX) has been formed for those users who
+can both send and receive mail to and from Internet and/or UUCP accounts
+(this includes Internet, UUCP, Compuserve, and Fidonet users).
+Subscribing to this list will enable users to not only receive
+notification of future releases, but will also receive bug reports,
+hints, and discussions concerning the future direction of egaint.  To
+subscribe, send mail to
+
+        ...!ucbvax!irss.njit.edu!egaint-request         (UUCP)
+        egaint-request@irss.njit.edu                    (Internet)
+        >internet:egaint-request@irss.njit.edu          (Compuserve)
+
+and more information will be relayed to you.
+
+--
+eric ng 1906 milvia street berkeley california 94704
+...!ucbvax!irss.njit.edu!erc ...!ucbvax!ocf!erc
+erc@irss.njit.edu            erc@ocf.berkeley.edu

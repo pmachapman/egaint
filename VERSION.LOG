@@ -1,0 +1,119 @@
+aint.pas     0.0     19-Apr-89 Created [erc]
+
+aint.pas     0.1     20-Apr-89 Added row clearing [erc]
+
+aint.pas     0.2     21-Apr-89 Added scoring and levels [erc]
+
+aint.pas     0.8     21-Apr-89 Rewritten
+                               Added game options screen
+                               Added initial height
+                               Added more reliable machine-independent timing
+                               Added show next
+                               Added show statistics
+                               Added tournament games
+                               Fixed high score list bug [erc]
+
+aint.pas     0.9     26-Apr-89 Added cheating
+                               Fixed fatal bug
+                               Fixed tournament game bug [erc]
+
+egaint.pas   0.9      2-May-89 Created [erc]
+
+egaint.pas   0.91     2-Jun-89 Added color support [erc]
+
+egaint.pas   0.91.99 18-Jun-89 Added escape in high score name window
+                               Added extended shapes
+                               Added video page switching in title screen
+                               Removed show statistics
+                               Removed wilder block styles [erc]
+
+egaint.pas   0.92.01 18-Jun-89 Added (and removed) show shadow
+                               Added escape as pause
+                               Added initial height block style
+                               Added toggle keys [erc]
+
+egaint.pas   0.92.02 18-Jun-89 Added show shadow [erc]
+
+egaint.pas   0.93.01 24-Jun-89 Rewritten
+                               Added "new" block style for title screen
+                               Added serial number system
+                               Added extended shapes entry in score window
+                               Added video page switching
+                               Fixed screen layout
+                               Removed show shadow [erc]
+
+egaint.pas   0.93.02 25-Jun-89 Added block styles
+                               Fixed score window
+                               Removed endgame [erc]
+
+egaint.pas   0.93.03 25-Jun-89 Added bi-directional rotation
+                               Added endgame
+                               Added two more block styles
+                               Added value entry in score window
+                               Added version field to high score file
+                               Fixed extended shapes [erc]
+
+egaint.pas   0.93.04 30-Jun-89 Fixed scoring [erc]
+
+egaint.pas   0.93.05 13-Jul-89 Added configuration file
+                               Fixed copyright message
+                               Removed serial number system [erc]
+
+aint.pas     0.90.01 13-Jul-89 Fixed initial values [erc]
+
+egaint.pas   0.93.06 27-Jul-89 Fixed memory allocation scheme [erc]
+
+egaint.pas   0.93.07 30-Jul-89 Added EGA palette support
+                               Added one more block style [erc]
+
+egaint.pas   0.93.KC 10-Sep-89 Added UNIX vi key bindings [erc]
+
+egaint.pas   0.94    12-Nov-89 Added extra level
+                               Added sound
+                               Added title screen bypass
+                               Added two more block styles
+                               Added UNIX vi key bindings compile-time option
+                               Fixed EGA palette support
+                               Fixed initial height block style
+                               Fixed level advancement
+                               Fixed score window bug [erc]
+
+egaint.pas   0.94.01 13-Nov-89 Fixed score window bug [erc]
+
+egaint.pas   0.94.02 15-Nov-89 Fixed high score record bug [erc]
+
+egaint.pas   0.94.03 16-Nov-89 Fixed gas plasma color table [erc]
+
+egaint.pas   0.94.04  2-Dec-89 Added BIOS keyboard reads
+                               Added key bindings
+                               Fixed game logic bugs
+                               Fixed toggle keys [erc]
+
+egaint.pas   0.94.05  4-Dec-89 Added num lock state restore
+                               Added quick exit
+                               Fixed initial height block style [erc]
+
+egaint.pas   0.94.06 12-Dec-89 Added initial level restore
+                               Added two more key bindings [erc]
+
+egaint.pas   0.94.07 27-Dec-89 Fixed title screen
+                               Removed "SolidFill" block styles [erc]
+
+egaint.pas   0.94.08 31-Dec-89 Fixed arrow key binding bug [erc]
+
+egaint.pas   0.94.09 12-Jan-90 Fixed Zenith EGA video page bug [erc]
+
+egaint.pas   0.94.10 23-Feb-90 Fixed read-only high score file bug [erc]
+
+egaint.pas   0.94.11  2-Apr-90 Added user-defined key binding save [erc]
+
+egaint.pas   0.94.12 11-Apr-90 Added user-defined EGA/VGA palette save
+                               Fixed user-defined key binding save [erc]
+
+egaint.pas   0.94.13 19-May-90 Added bullet cursor to options screen
+                               Added Hercules/EGA monochrome support
+                               Added pit depth option
+                               Added show guide option
+                               Fixed initial height option
+                               Fixed scoring [erc]
+
