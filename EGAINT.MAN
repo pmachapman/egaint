@@ -1,0 +1,204 @@
+
+
+  NAME
+       egaint - Enhanced graphics aint
+
+  SYNOPSIS
+       egaint [bcmp]
+
+  DESCRIPTION
+       Egaint is a particular two-dimensional variation of Tetris for the IBM
+       Personal Computer domain.
+
+  MACHINE REQUIREMENTS
+       Egaint requires an IBM PC, PS/2, or 100% compatible machine (an 8 MHz
+       or faster CPU is strongly recommended); an EGA with 256k RAM, VGA, or
+       Hercules graphics adapter; and at least 256k free system RAM.
+
+  OBJECTIVE
+       To construct as many contiguous rows as possible by manipulating (via
+       both rotational and translational motion) variously shaped blocks
+       which are randomly dropped from the top of the screen.  Play ends when
+       the resulting structure reaches the top of the screen.
+
+  COMMAND-LINE OPTIONS
+       Egaint accepts one option specifying what sort of display device is
+       present:
+
+       b    an EGA or VGA in color mode connected to a black-and-white
+            display device
+
+       c    an EGA or VGA connected to a color display device
+
+       m    an Hercules or EGA in monochrome mode connected to a monochrome
+            display device
+
+       p    an EGA or VGA connected to a four-shade gas plasma display (i.e.,
+            the Toshiba T5100 Portable Personal Computer)
+
+       If no option is specified, egaint will assume (if no configuration
+       file exists in the working directory) either the color display (option
+       "c") or whichever option is specified in the configuration file (see
+       below).
+
+  GAME OPTIONS
+       Once inside egaint, several game options are available, all of which
+       will be summarized below.
+
+       Tournament Game
+                 allows players to compete against each other by providing
+                 for reproducible games; a particular tournament game will
+                 play exactly the same each time it is invoked.  Note that
+                 all conditions must be identical for games to be identical
+                 (i.e., the same version of egaint, the same initial level,
+                 etc.).
+
+       Tournament Game Number
+                 specifies which of the 256 possible games to play.
+
+       Initial Level
+                 where one is the easiest (slowest) and eleven is the hardest
+                 (fastest).
+
+       Initial Height
+                 specifies how high (in blocks) an area should be filled with
+                 randomly placed blocks (ranges from one to nineteen).  This
+                 value will be adjusted should the pit depth minus the
+                 initial height value be less than five.  Hidden blocks are
+                 (as the name connotes) invisible.
+
+       Show Next
+                 toggles whether or not the next shape to be put into play
+                 should be displayed in the window in the upper-left corner
+                 of the screen.
+
+       Extended Shapes
+                 determines which particular set of shapes should be used
+                 during play.  Classic (the seven basic shapes) is a subset
+                 of Easy, Easy is a subset of Medium, and Medium is a subset
+                 of Hard.
+
+       Block Style
+                 for aesthetic reasons, specifies which particular set of
+                 graphic blocks should be used to represent the shapes in
+                 play.
+
+       Key Binding
+                 determines which keyboard binding set is to be used during
+                 play; in the following descriptions, the keys are given as
+                 follows:  (1) move left, (2) rotate counter-clockwise, (3)
+                 move right, (4) rotate clockwise, and (5) drop.
+
+                 Classic        J I L K Space
+
+                 Russian        J K L I Space
+
+                 Berkeley       H J K L Space (UNIX vi-style)
+
+                 Left-handed    S E F D Space
+
+                 Finnish        S D F E Space (Left-handed Russian)
+
+                 San Francisco  A S D F Space (Left-handed Berkeley)
+
+                 Arrow          4 8 6 5 0     (number pad)
+
+                 User-defined   allows the user to define the key bindings;
+                                these key bindings will remain in effect
+                                until the Key Binding option is changed, at
+                                which the defined bindings will disappear.
+                                In addition, the specified key bindings will
+                                be saved in the configuration file if this
+                                binding is still active upon exit to the
+                                operating system.
+
+       Pit Depth
+                 determines the depth of the pit in rows (ranges from five to
+                 twenty-four).
+
+       Show Guide
+                 toggles whether or not guide rulers should be displayed in
+                 the pit.
+
+  OTHER KEY BINDINGS
+       The following bindings are also in effect no matter which key set is
+       chosen:
+
+       Escape    when first hit, pauses play:  if hit again while paused,
+                 aborts play; otherwise, play resumes.  Pressing Escape
+                 during while selecting options will exit the user to the
+                 operating system.
+
+       Ctrl-B    cycles the current block style
+
+       Ctrl-L    increments the current level
+
+       Ctrl-N    toggles show next
+
+       Ctrl-S    toggles sound effects
+
+       Ctrl-X    cycles the current shape set
+
+       Ctrl-\    quick exit to the operating system
+
+  SCORING
+       Each shape has been assigned a point value based on its difficulty of
+       placement and frequency of necessity.  This value is first multiplied
+       by the current level and then incremented by the relevant bonuses
+       (bonuses are awarded for not using show next, not using show guide,
+       having an initial height, etc.).  The point value for the current
+       shape is displayed within the score window next to the "value"
+       heading.
+
+       In addition, points are awarded for dropping pieces (the higher the
+       drop, the greater the points), clearing rows, and having an empty pit.
+       These points are also multiplied by the current level and incremented
+       by the relevant bonuses.
+
+  LEVEL ADVANCEMENT
+       The rule for level advancement is as follows:  after the xth row is
+       cleared and if x is a multiple of ten, current level will become n,
+       where n=(x/10)-1 (if n is greater than the current level).  However,
+       the attainment of level eleven will only occur after clearing 200 rows
+       (rather than the expected 100 rows).
+
+  CONFIGURATION FILE
+       Egaint will save the current options (upon exit to the operating
+       system) in a file in the current directory called EGAINT.RC; the
+       format is pretty self-explanatory upon inspection.  If egaint cannot
+       find its configuration file in the current directory, it will create
+       one with its default options.
+
+  HIGH SCORE RECORD
+       Egaint will save the top fifteen high scores in a file in the current
+       directory called EGAINT.REC.  Again, if egaint cannot find its high
+       score record in the current directory, it will create one.
+
+  UNRESTRICTIONS
+       Egaint is free software; you can redistribute it and/or modify it
+       under the terms of the GNU General Public License as published by the
+       Free Software Foundation; either version 1, or (at your option) any
+       later version.
+
+       This program is distributed in the hope that it will be useful, but
+       without any warranty whatsoever, without even the implied warranties
+
+       of merchantability or fitness for a particular purpose.  See the
+       accompanying GNU General Public License for more details.
+
+       You should have received a copy of the GNU General Public License
+       along with this program; see the file COPYING.  If not, write to:
+
+            Free Software Foundation, Inc.
+            675 Massachusetts Avenue
+            Cambridge, Massachusetts 02139
+
+  NOT PUBLIC DOMAIN NOR SHAREWARE
+       This program is neither public domain nor is it shareware (nor
+       freeware, nor whateveritiscalledthisweekware).  Note that I am not
+       asking you to send me any money, but also be aware that I have
+       retained a copyright on this program.
+
+  SOURCE CODE
+       For information on obtaining the full Turbo Pascal source code and/or
+       the latest version, consult the included file GETTING.

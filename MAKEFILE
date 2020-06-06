@@ -24,12 +24,12 @@
 TURBO=C:\TP
 !endif
 
-# Makefile for egaint 0.94.13 (for use with Turbo Make 2.0)
-egaint.exe: eg9413.pas driver.tpu fonts.tpu
-	tpc /m eg9413.pas
-	copy egaint.exe eg.exe		# all this because I've been
-	copy eg9413.exe egaint.exe	# having problems using rename
-	erase eg9413.exe		# with Turbo Make 2.0
+# Makefile for egaint (for use with Turbo Make 2.0)
+egaint.exe: egaint.pas driver.tpu fonts.tpu pal.exe
+	tpc /m egaint.pas
+
+pal.exe: pal.pas driver.tpu
+	tpc /m pal.pas
 
 fonts.tpu: fonts.pas sans.obj litt.obj
 	tpc fonts.pas
